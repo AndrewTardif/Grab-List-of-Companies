@@ -21,7 +21,7 @@ clicking inspect will bring up the console at points us to the "thing" we right 
 
 In this case the class is "has-huge-font-size".
 
-<img src="https://github.com/epicsaxgandalf/Grab-List-of-Companies/blob/af2d55781caf80c642e5d0b35b82158c1d8de56a/console&getreq.png" width="500">
+<img src="https://github.com/epicsaxgandalf/Grab-List-of-Companies/blob/af2d55781caf80c642e5d0b35b82158c1d8de56a/console&getreq.png" width="1000">
 
 next we scroll to the bottom of the page of the left to make sure every title is loaded on the page to the left(see the GET requests, the page only fetches the rest of the companies when they are needed so the initial page loads faster).
 
