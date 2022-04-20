@@ -23,9 +23,21 @@ In this case the class is "has-huge-font-size".
 
 <img src="https://github.com/epicsaxgandalf/Grab-List-of-Companies/blob/af2d55781caf80c642e5d0b35b82158c1d8de56a/console&getreq.png" width="1000">
 
-next we scroll to the bottom of the page of the left to make sure every title is loaded on the page to the left(see the GET requests, the page only fetches the rest of the companies when they are needed so the initial page loads faster).
+next we scroll to the bottom of the page of the left to make sure every title is loaded on the page to the left (the page only fetches the rest of the companies when they are needed so the initial page loads faster, but we want to grab all of them).
 
 <img src="https://github.com/epicsaxgandalf/Grab-List-of-Companies/blob/89f61a5052083d9fe94be1b44a7e0e47717118e3/List%20of%20Companies.png" width="500">
+
+Get the class we copied earlier and paste it into the appropriate places in our for loop.
+
+let l = document.getElementsByClassName('?????').length;
+for (let i = 0; i < l; i++) {
+   console.log(document.getElementsByClassName('?????')[i].innerText)
+}
+
+paste it where the questions marks currently reside.
+
+innerText may also need to be changed depending on what the "thing" you want to grab is called.
+
 <img src="https://github.com/epicsaxgandalf/Grab-List-of-Companies/blob/89f61a5052083d9fe94be1b44a7e0e47717118e3/List%20of%20Companies.png" width="500">
 <img src="https://github.com/epicsaxgandalf/Grab-List-of-Companies/blob/89f61a5052083d9fe94be1b44a7e0e47717118e3/List%20of%20Companies.png" width="500">
 
