@@ -41,7 +41,7 @@ paste it where the questions marks currently reside.
 
 innerText may also need to be changed depending on what the "thing" you want to grab is called.
 
-<img src="https://github.com/epicsaxgandalf/Grab-List-of-Companies/blob/89f61a5052083d9fe94be1b44a7e0e47717118e3/List%20of%20Companies.png" width="500">
+<img src="https://github.com/epicsaxgandalf/Grab-List-of-Companies/blob/e81717f4d9c234423e4f265817f95103a91b6074/Results.png" width="1000">
 <img src="https://github.com/epicsaxgandalf/Grab-List-of-Companies/blob/89f61a5052083d9fe94be1b44a7e0e47717118e3/List%20of%20Companies.png" width="500">
 
 Partial Duplicate Formula/Code =if(A1<>"",Countif(A$1:A,left(A1,10)& "*") > 1)
