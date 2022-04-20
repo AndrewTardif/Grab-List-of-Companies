@@ -17,7 +17,7 @@ Here we are going to right click on the title and inspect to grab the class name
 
 <img src="https://github.com/epicsaxgandalf/Grab-List-of-Companies/blob/7147a1807f040656556ee82d7b8bbc31f2c94e76/get%20html%20class.png" width="1000">
 
-clicking inspect will bring up the console at points us to the "thing" we right clicked on. In this case it's the title that we want and right above that is the class(do this for a couple more titles to make sure we have the right class and copy/paste the class in a notepad or something)
+clicking inspect will bring up the console at points us to the "thing" we right clicked on. In this case it's the title that we want and right above that is the class(do this for a couple more titles to make sure we have the right class and copy/paste the class in a notepad or something). In this case the class is "has-huge-font-size" .
 
 <img src="https://github.com/epicsaxgandalf/Grab-List-of-Companies/blob/89f61a5052083d9fe94be1b44a7e0e47717118e3/List%20of%20Companies.png" width="500">
 <img src="https://github.com/epicsaxgandalf/Grab-List-of-Companies/blob/89f61a5052083d9fe94be1b44a7e0e47717118e3/List%20of%20Companies.png" width="500">
