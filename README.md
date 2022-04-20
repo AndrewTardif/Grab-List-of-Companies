@@ -25,7 +25,7 @@ In this case the class is "has-huge-font-size".
 
 next we scroll to the bottom of the page of the left to make sure every title is loaded on the page to the left (the page only fetches the rest of the companies when they are needed so the initial page loads faster, but we want to grab all of them).
 
-<img src="https://github.com/epicsaxgandalf/Grab-List-of-Companies/blob/89f61a5052083d9fe94be1b44a7e0e47717118e3/List%20of%20Companies.png" width="500">
+<img src="https://github.com/epicsaxgandalf/Grab-List-of-Companies/blob/7ce175e542e2f1844272684c6fafbb21717de0ef/forloop.png" width="800">
 
 Get the class we copied earlier and paste it into the appropriate places in our for loop.
 
