@@ -30,8 +30,11 @@ next we scroll to the bottom of the page of the left to make sure every title is
 Get the class we copied earlier and paste it into the appropriate places in our for loop.
 
 let l = document.getElementsByClassName('?????').length;
+
 for (let i = 0; i < l; i++) {
+
    console.log(document.getElementsByClassName('?????')[i].innerText)
+   
 }
 
 paste it where the questions marks currently reside.
