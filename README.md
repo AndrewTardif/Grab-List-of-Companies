@@ -47,13 +47,15 @@ This For loop grabbed all the titles on the page and now allows us to copy and p
 
 At this point you can repeat the steps above and grab the lists of companies from a bunch of different websites.
 
+<img src="https://github.com/epicsaxgandalf/Grab-List-of-Companies/blob/c5e35516971312c97cb15e8b927c70aaf58885c6/Excel.png" width="1000">
+
 Once you've gone through 5 or so websites and compiled a lot of companies into a document you can now copy+paste the list into an excel document(current example being google sheets)
 
 <img src="https://github.com/epicsaxgandalf/Grab-List-of-Companies/blob/e96739bf1622373c0a21f462ec8ab4eaffbd17fb/Conditional%20Formatting.png" width="500">
 
-within Google Sheets/Excel I opened the format tab and clicked on conditional formatting(this is for getting rid of the duplicates)
+within Google Sheets/Excel I opened the format tab and clicked on conditional formatting(this part is for getting rid of the duplicates)
 
-<img src="https://github.com/epicsaxgandalf/Grab-List-of-Companies/blob/89f61a5052083d9fe94be1b44a7e0e47717118e3/List%20of%20Companies.png" width="500">
+
 <img src="https://github.com/epicsaxgandalf/Grab-List-of-Companies/blob/89f61a5052083d9fe94be1b44a7e0e47717118e3/List%20of%20Companies.png" width="500">
 <img src="https://github.com/epicsaxgandalf/Grab-List-of-Companies/blob/89f61a5052083d9fe94be1b44a7e0e47717118e3/List%20of%20Companies.png" width="500">
 Partial Duplicate Formula/Code =if(A1<>"",Countif(A$1:A,left(A1,10)& "*") > 1)
