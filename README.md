@@ -56,6 +56,9 @@ Once you've gone through 5 or so websites and compiled a lot of companies into a
 within Google Sheets/Excel I opened the format tab and clicked on conditional formatting(this part is for getting rid of the duplicates)
 
 
-<img src="https://github.com/epicsaxgandalf/Grab-List-of-Companies/blob/89f61a5052083d9fe94be1b44a7e0e47717118e3/List%20of%20Companies.png" width="500">
-<img src="https://github.com/epicsaxgandalf/Grab-List-of-Companies/blob/89f61a5052083d9fe94be1b44a7e0e47717118e3/List%20of%20Companies.png" width="500">
+<img src="https://github.com/epicsaxgandalf/Grab-List-of-Companies/blob/306df1679fa0d73f5bbe582de7d91c70ffd379c5/Formatting%20Rules.png" width="500">
+within conditional formatting we clicked "add another rule". We set the rule to affect the first 1000 cells(you can do more if you like) then we set it to custom formaula where we entered the below formula which highlights the partial duplicates(formaula might need some tweaking depending on how sensitive you want it to be).
+
 Partial Duplicate Formula/Code =if(A1<>"",Countif(A$1:A,left(A1,10)& "*") > 1)
+
+Delete the highlighted duplicates and you are good to go  :)
